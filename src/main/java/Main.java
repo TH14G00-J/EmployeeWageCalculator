@@ -1,8 +1,12 @@
+import entities.Employee;
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        Employee employee = new Employee();
 
         System.out.print("User number: ");
         int userNumber = (int) getValidIntOrDouble(sc);
@@ -13,7 +17,7 @@ public class Main {
         System.out.print("Hourly wage: ");
         double hourlyWage = getValidIntOrDouble(sc);
 
-        double salary = hoursWorked * hourlyWage;
+        double salary = employee.getEmployeeWage(hoursWorked, hourlyWage);
 
         System.out.printf("""
                 ------------------------
