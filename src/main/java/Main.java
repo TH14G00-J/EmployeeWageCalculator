@@ -17,7 +17,7 @@ public class Main {
         System.out.print("Hourly wage: ");
         double hourlyWage = getValidIntOrDouble(sc);
 
-        double salary = employee.getEmployeeWage(hoursWorked, hourlyWage);
+        double salary = employee.calculateEmployeeSalary(hoursWorked, hourlyWage);
 
         System.out.printf("""
                 ------------------------
