@@ -27,3 +27,12 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/target/classes/entities/Employee.class
+/target/test-classes/EmployeeTest.class
+/target/classes/Main.class
+/.idea/.gitignore
+/.idea/compiler.xml
+/.idea/encodings.xml
+/.idea/jarRepositories.xml
+/.idea/misc.xml
+/.idea/vcs.xml
